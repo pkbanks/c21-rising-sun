@@ -7,7 +7,19 @@ body {
 }
 
 .horizon {
-  position: absolute;
+  position: relative;
   height: 490px;
+  width: 100%;
   top: 0px;
+
+}
+
+#sun {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: #FF0;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
 }
